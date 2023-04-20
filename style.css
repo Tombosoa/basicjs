@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.right, .left{
+    flex-basis: 16%;
+}
+.middle{
+    flex-basis: 70%;
+}
+.middle, .right, .left{
+    background-color: rgb(255, 223, 136);
+    height: 100vh;
+    border: 1px solid black;
+}
+.balle{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 10px auto;
+}
